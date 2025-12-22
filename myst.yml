@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: d52402fc-2977-4c88-948d-4970d21dee50
+  title: Intro to HPC-Quantum
+  description: Collection of work by Group 32 of QAMP
+  keywords: [quantum computing, high performance computing]
+  authors: [Jose Hernandez]
+  github: HPC-Quantum/docs
+  toc:
+    - file: overview.md
+    - file: intro.md
+      children:
+        - file: quantumintro.md
+        - file: hpcintro.md
+        - file: hybrid.md
+
+
+site:
+  template: book-theme
+  #options:
+    #favicon: favicon.ico
+    #logo: site_logo.png
