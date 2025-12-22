@@ -5,7 +5,7 @@ project:
   title: Intro to HPC-Quantum
   description: Collection of work by Group 32 of QAMP
   keywords: [quantum computing, high performance computing]
-  authors: [Jose Hernandez]
+  authors: [Robert Loredo, Jose Hernandez, Claudia Friedsam, Jonah Sachs, Emre Camkerten, Kasirga Hamidi ]
   github: HPC-Quantum/docs
   toc:
     - file: overview.md
@@ -14,10 +14,18 @@ project:
         - file: quantumintro.md
         - file: hpcintro.md
         - file: hybrid.md
+    - file: qiskitonhpc.md
+      children:
+        - file: Python.md
+        - file: Cplusplus.md
+        - file: tutorial.md 
+          children:
+            - file: medium.md
+            - file: Installation.md 
+
 
 
 site:
   template: book-theme
-  #options:
-    #favicon: favicon.ico
-    #logo: site_logo.png
+  options:
+    favicon: favicon.ico
