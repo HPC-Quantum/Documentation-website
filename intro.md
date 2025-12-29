@@ -6,10 +6,12 @@ Learning quantum computing is no easy feat specially when you combine it with an
 :::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d7/Feynman_lecture_1964_%2810481714045%29.jpg
 :label: fig:Feynman lecture
 
-A photograph of Feynman teaching
+A photograph of Richard Feynman teaching
 :::
 
 ## Pathways 
+
+Given the differing backgrounds of the users of this page we wanted to make sure that eveyrbody can find relevant and preparation specific content easily. Therefore, we have prepared the following pathways which you may use as guidelines to start your exploration of our tutorials & docs.
 
 :::::{dropdown} __Quantum Pathway__
 __Background:__ This Pathway is for those who __have__ HPC experience and would like to leanre the basics of Qiskit and Quantum computing so they can start exploting quantum workflows. Familiarity with Python and/or C++ is preferred as well as some comfortability with Unix-like systems and bash scripts.
