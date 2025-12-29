@@ -36,6 +36,24 @@ __Background:__ This Pathway is for those who __have__ HPC experience and would 
 
 After comnpleting the three lessons above feel free to visit the Python, C++, and API demo pages at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
 
+::::{grid} 1 1 2 3
+
+:::{card}
+:header: Text content ✏️
+Structure books with text files and Jupyter Notebooks with minimal configuration.
+:::
+
+:::{card}
+:header: MyST Markdown ✨
+Write MyST Markdown to create enriched documents with publication-quality features.
+:::
+
+:::{card}
+:header: Executable content 🔁
+Execute notebook cells, store results, and insert outputs across pages.
+:::
+::::
+
 #### HPC Pathway 
 __Background:__
 
