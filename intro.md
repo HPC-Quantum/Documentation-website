@@ -1,10 +1,37 @@
 # Introduction
 
-I am a book about HPC- Quantum workflows
+Learning quantum computing is no easy feat specially when you combine it with another complicated topic such as high-performance computing. For this reason we have created four suggested pathways that you can utilize to go thorugh the materials here depending on your background. 
 
-% A figure of a photograph of some mountains, followed by a caption
-:::{figure} https://github.com/rowanc1/pics/blob/main/mountains.png?raw=true
-:label: fig:mountains
+## Pathways: 
 
-A photograph of some beautiful mountains to look at whilst reading.
+#### Quantum Pathway: 
+__Background:__ This Pathway is for those who __have__ HPC experience and would like to leanre the basics of Qiskit and Quantum computing so they can start exploting quantum workflows. Familiarity with Python and/or C++ is preferred as wellk as some comfortability with Unix-like systems and bash scripts.
+
+:::{card} Intro to Quantum Computing
+:link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
+:::
+:::{card} Intro to Quantum-HPC
+:link: https://hpc-quantum.github.io/Documentation-website/hybrid/
+:::
+:::{card} Qiskit on HPC
+:link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
+:::
+
+After comnpleting the three lessons above feel free to visit the Python, C++, and API demo pages at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
+
+#### HPC Pathway: 
+__Background:__
+
+#### Beginner Pathway: 
+__Background:__
+
+### Troubleshooting Pathway
+
+
+
+% A figure of Feynman teaching
+:::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d7/Feynman_lecture_1964_%2810481714045%29.jpg
+:label: fig:Feynman lecture
+
+A photograph of Feynman teaching
 :::
