@@ -10,9 +10,11 @@ __Background:__ This Pathway is for those who __have__ HPC experience and would 
 :::{card} Intro to Quantum Computing
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
 :::
+
 :::{card} Intro to Quantum-HPC
 :link: https://hpc-quantum.github.io/Documentation-website/hybrid/
 :::
+
 :::{card} Qiskit on HPC
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
 :::
