@@ -13,46 +13,25 @@ A photograph of Feynman teaching
 
 #### Quantum Pathway
 __Background:__ This Pathway is for those who __have__ HPC experience and would like to leanre the basics of Qiskit and Quantum computing so they can start exploting quantum workflows. Familiarity with Python and/or C++ is preferred as wellk as some comfortability with Unix-like systems and bash scripts.
+::::{grid} 1 1 2 3
 
-:::{card} Intro to Quantum Computing
+:::{card} 
+:header: Intro to Quantum Computing
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
 :::
 
-:::{card} Intro to Quantum-HPC
+:::{card} 
+:header: Intro to Quantum-HPC
 :link: https://hpc-quantum.github.io/Documentation-website/hybrid/
 :::
 
-:::{card} Qiskit on HPC
+:::{card} 
+:header: Qiskit on HPC
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
 :::
-
-```{card} Card title
-```
-
-```{card} Intro to Quantum-HPC
-:link: https://hpc-quantum.github.io/Documentation-website/hybrid/
-
-```
+::::
 
 After comnpleting the three lessons above feel free to visit the Python, C++, and API demo pages at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
-
-::::{grid} 1 1 2 3
-
-:::{card}
-:header: Text content ✏️
-Structure books with text files and Jupyter Notebooks with minimal configuration.
-:::
-
-:::{card}
-:header: MyST Markdown ✨
-Write MyST Markdown to create enriched documents with publication-quality features.
-:::
-
-:::{card}
-:header: Executable content 🔁
-Execute notebook cells, store results, and insert outputs across pages.
-:::
-::::
 
 #### HPC Pathway 
 __Background:__
