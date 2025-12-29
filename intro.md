@@ -12,7 +12,6 @@ A photograph of Feynman teaching
 ## Pathways 
 
 :::::{dropdown} __Quantum Pathway__
-#### Quantum Pathway
 __Background:__ This Pathway is for those who __have__ HPC experience and would like to leanre the basics of Qiskit and Quantum computing so they can start exploting quantum workflows. Familiarity with Python and/or C++ is preferred as well as some comfortability with Unix-like systems and bash scripts.
 ::::{grid} 1 1 2 3
 
@@ -35,11 +34,11 @@ This docs page will cover current work being done to use Qiskit on HPC and curre
 :::
 ::::
 
-After completing the three lessons above feel free to visit the [Python](/Python.md), [C++](https://hpc-quantum.github.io/Documentation-website/cplusplus/), and API demo pages at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
+After completing the three lessons above feel free to visit the [Python](/Python.md), [C++](/Cplusplus.md), and [API demo pages](/tutorial.md) at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
 
 :::::
 
-#### HPC Pathway 
+:::::{dropdown} __HPC Pathway__
 __Background:__ This Pathway is for those who __have__ quantum computing experience and would like to learn the basics of High Performance computing before delving into hybrid workflows. Familiarity with Qiskit is expected.
 
 ::::{grid} 1 1 2 3
@@ -62,8 +61,9 @@ This docs page will guide you through the theory of how a hybrid workflow should
 This docs page will cover current work being done to use Qiskit on HPC and current learning materials.
 :::
 ::::
+:::::
 
-#### Beginner Pathway
+:::::{dropdown} __Beginner Pathway__
 __Background:__ This Pathway is for those who __don't__ have experience in either HPC & quantum computing. The introduction sectiosn will redirect you to appropriate begginer materials before you come back for the hybrid workflow content on the rest of our page.
 
 
@@ -76,21 +76,43 @@ This docs page will guide you to the appropriate Qiskit tutorials to start your 
 :::
 
 :::{card} 
-:header: __I.Intro to High Performance Computing__
+:header: __II.Intro to High Performance Computing__
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
 This docs page will guide you to the appropriate HPC tutorials to start your HPC journey!
 :::
 
 :::{card} 
-:header: __II.Intro to Quantum-HPC__
+:header: __III.Intro to Quantum-HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/hybrid/
 This docs page will guide you through the theory of how a hybrid workflow should work!
 :::
 ::::
+:::::
 
 
-#### Troubleshooting Pathway
-__Background:__
+:::::{dropdown} __Troubleshooting Pathway__
+__Background:__ This Pathway is for those who are currently working on Python, C, & C++ HPC workflows with Qiskit. 
+::::{grid} 1 1 2 3
+
+:::{card} 
+:header: __Hello HPC - Python__
+:link: https://hpc-quantum.github.io/Documentation-website/python/
+This tutorial guides you through the use of of virtual environments to run Python workflows on HPC resources
+:::
+
+:::{card} 
+:header: __Hello HPC - C++__
+:link: https://hpc-quantum.github.io/Documentation-website/cplusplus/
+This tutorial guides you through the use of the Qiskit C++ API without the addition of OpenMP or MPI.
+:::
+
+:::{card} 
+:header: __Official Qiskit API demo help__
+:link: https://hpc-quantum.github.io/Documentation-website/tutorial/
+This selection of pages has intallation and instruction help to get the official IBM Qiskit C API demo up and running!
+:::
+::::
+:::::
 
 
 
