@@ -18,16 +18,19 @@ __Background:__ This Pathway is for those who __have__ HPC experience and would 
 :::{card} 
 :header: Intro to Quantum Computing
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
+This docs page will guide you to the appropriate Qiskit tutorials to start your Quantum journey!
 :::
 
 :::{card} 
 :header: Intro to Quantum-HPC
 :link: https://hpc-quantum.github.io/Documentation-website/hybrid/
+This docs page will guide you through the theory of how a hybrid workflow should work!
 :::
 
 :::{card} 
 :header: Qiskit on HPC
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
+This docs page will cover current work being done to use Qiskit on HPC and current learning materials
 :::
 ::::
 
