@@ -28,7 +28,7 @@ This docs page will guide you through the theory of how a hybrid workflow should
 :::
 
 :::{card} 
-:header: __III.Qiskit on HPC___
+:header: __III.Qiskit on HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
 This docs page will cover current work being done to use Qiskit on HPC and current learning materials
 :::
