@@ -6,7 +6,7 @@ This content was created to assist users who may be unfamiliar with environment/
 
 Here we will describe how to create a GitHub codespace through an existing fork created by Jonah Sachs. GitHub codespaces allow you to run a custom development environment through GitHub. For more information, see [GitHub Codespaces](https://docs.github.com/en/codespaces).
 
-**Using My Fork** Go to my already created [Fork](https://github.com/Jsachs14/docker_qiskit-c-api-demo/tree/main). If you want to make and keep changes, fork this repository (or use it as a template) and create a codespace from your copy. You won’t be able to push changes directly to this repository’s `main` branch.
+**Using My Fork** Go to my already created [Jonah Sachs’ fork of the Qiskit C API demo](https://github.com/Jsachs14/docker_qiskit-c-api-demo/tree/main). If you want to make and keep changes, fork this repository (or use it as a template) and create a codespace from your copy. You won’t be able to push changes directly to this repository’s `main` branch.
 
 To create the codespace, click **Code**, and then the **Codespaces** tab. From here click **Create codespace on main** to create your codespace. Then, a UI similar to VS Code should open up. In your terminal, you should be in:
 
