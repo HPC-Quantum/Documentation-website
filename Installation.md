@@ -2,9 +2,9 @@
 
 This content was created to assist users who may be unfamiliar with environment/image/wheel setups. In plain terms, the docker image shown and implemented here serves as a template for a miniaturized computer system, included with packages/libraries from different languages. In general, a docker image allows a user to easily implement a fully operational container environment, with this one specifically created and tailored toward the [Qiskit-C-API-Demo](https://www.ibm.com/quantum/blog/c-api-enables-end-to-end-hpc-demo).
 
-## Implementing Github Codespace
+## Implementing GitHub Codespace
 
-Here we will describe how to create a Github codespace through an existing fork created by Jonah Sachs. Github codespaces allow you to run a custom development environment through Github. For more information, see [Github Codespaces](https://docs.github.com/en/codespaces).
+Here we will describe how to create a GitHub codespace through an existing fork created by Jonah Sachs. GitHub codespaces allow you to run a custom development environment through GitHub. For more information, see [GitHub Codespaces](https://docs.github.com/en/codespaces).
 
 **Using My Fork** Go to my already created [Fork](https://github.com/Jsachs14/docker_qiskit-c-api-demo/tree/main). If you want to make and keep changes, fork this repository (or use it as a template) and create a codespace from your copy. You won’t be able to push changes directly to this repository’s `main` branch.
 
