@@ -13,6 +13,9 @@ project:
       children:
         - file: quantumintro.md
         - file: hpcintro.md
+          children:
+            - file: openmp.md
+            - file: mpi.md
         - file: hybrid.md
     - file: qiskitonhpc.md
       children:
