@@ -13,18 +13,24 @@ project:
       children:
         - file: quantumintro.md
         - file: hpcintro.md
+        - file: hybrid.md
+    - file: tutorials.md
+      children:
+        - file: hpctutorial.md
           children:
             - file: openmp.md
             - file: mpi.md
-        - file: hybrid.md
-    - file: qiskitonhpc.md
-      children:
-        - file: Python.md
-        - file: Cplusplus.md
-        - file: tutorial.md 
+        - file: hybridorch.md
           children:
-            - file: medium.md
-            - file: Installation.md 
+            - file: planningtool.md
+        - file: qiskitonhpc.md
+          children:
+            - file: Python.md
+            - file: Cplusplus.md
+            - file: tutorial.md 
+              children:
+                - file: medium.md
+                - file: Installation.md 
 
 
 
