@@ -76,5 +76,5 @@ This project focuses on **practical, reproducible hybrid workflows**, emphasizin
 
 For a deeper discussion of bottlenecks, scheduling tradeoffs, and emerging system architectures in quantum–HPC integration, see the accompanying Medium article:
 
-→ *Hybrid Quantum–HPC Systems: Bottlenecks, Tradeoffs, and Practical Solutions*
+[Hybrid Quantum–HPC Systems: Bottlenecks, Tradeoffs, and Practical Solutions](https://medium.com/@claudia.friedsam/hybrid-quantum-hpc-systems-bottlenecks-tradeoffs-and-practical-solutions-1faa3e21db23)
 
