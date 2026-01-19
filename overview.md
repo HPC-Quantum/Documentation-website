@@ -12,9 +12,11 @@ __Welcome to the beginning of your Quantum-HPC journey!__
 The following pages provide tutorials on how to use Qiskit for quantum compiutation alongside high-performance computing. Whether you are new or a seasoned vet on either of these fields we hope that you find the material here useful and good reference for your research and/or implementations. The content is split into two sections: 
 
 - __Introduction section__ These point towards introductory & free resources for Quantum Computing with Qiskit and High-Performance Computing with Python & C++. 
-- __Tutorial section__ These include tutorials on how to install the Qiskit C API and how to run introductory HPC jobs for Python & C++ with SLURM, a common HPC scheduler [^myref]. In addition this section includes guidance on the installation and implementation of the offical Qiskit C API demo with MPI and OpenMP use released by IBM at the end of 2025. 
+- __Tutorial section__ These include tutorials on traditional HPC work, the intstallation of the Qiskit C API and how to run introductory HPC jobs for Python & C++ with SLURM, a common HPC scheduler. In addition this section includes guidance on the installation and implementation of the offical Qiskit C API demo with MPI and OpenMP use released by IBM at the end of 2025. 
 
-[^myref]: No worries if you dont know what this is yet!
+:::{tip}
+We recommend you start with our [learning pathways](/intro ) to get a sense of how the content on these pages can benefit your Quantum HPC work!
+:::
 
 :::{note}
 All materials here where developed for the Qiskit Advocate Mentorship Program by Group #32- Hello HPC!
