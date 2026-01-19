@@ -52,9 +52,9 @@ This docs page will guide you to the appropriate HPC tutorials to start your HPC
 :::
 
 :::{card} 
-:header: __II.Intro to Quantum-HPC__
-:link: https://hpc-quantum.github.io/Documentation-website/hybrid/
-This docs page will guide you through the theory of how a hybrid workflow should work!
+:header: __II.Understanding HPC__
+:link: https://hpc-quantum.github.io/Documentation-website/hpctutorial/
+This colllection of pages will guide you through the use of OpenMP and MPI separate from quantum workflows for ease of learning
 :::
 
 :::{card} 
