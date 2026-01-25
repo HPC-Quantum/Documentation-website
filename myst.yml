@@ -22,7 +22,16 @@ project:
             - file: mpi.md
         - file: hybridorch.md
           children:
-            - file: planningtool.md
+            - file: workflowscenarios.md
+              children:
+                - file: scenario-a.md
+                - file: scenario-b.md
+                - file: scenario-c.md
+                - file: scenario-d.md
+            - file: workflowexplorer.md
+              children:
+                - file: workflowanimations.md
+                - file: explorertool.md
         - file: qiskitonhpc.md
           children:
             - file: Python.md
