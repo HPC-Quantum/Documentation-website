@@ -1,4 +1,4 @@
-# Quantum–HPC Workflow Scenarios
+# Workflow Scenarios
 
 This section presents a set of **static workflow scenarios** that illustrate common execution patterns in hybrid Quantum–HPC systems.
 

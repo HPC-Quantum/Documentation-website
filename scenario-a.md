@@ -1,4 +1,5 @@
-# Scenario A — Idealized Baseline (Loosely Coupled Workflow)
+# Scenario A
+## Idealized Baseline (Loosely Coupled Workflow)
 
 Scenario A illustrates a hybrid Quantum–HPC workflow in which **quantum execution is present but non-disruptive**. Classical computation dominates runtime, quantum calls are infrequent, and no structural bottleneck limits overall progress.
 
