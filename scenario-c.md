@@ -1,4 +1,5 @@
-# Scenario C — Latency Wall (Transfer-Dominated Workflow)
+# Scenario C 
+## Latency Wall (Transfer-Dominated Workflow)
 
 Scenario C illustrates a hybrid Quantum–HPC workflow in which **data movement dominates execution time**.  
 Classical preparation is fast, quantum execution itself is fast, and the QPU is not saturated — yet the system still stalls.
