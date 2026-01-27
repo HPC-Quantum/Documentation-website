@@ -1,4 +1,5 @@
-# Scenario B — Synchronization Wall (Globally Coupled Workflow)
+# Scenario B 
+## Synchronization Wall (Globally Coupled Workflow)
 
 Scenario B illustrates a hybrid Quantum–HPC workflow in which **classical progress is gated by a global quantum dependency**.  
 The structure closely resembles a **VQE-style iteration**, with one deliberate simplification: quantum executions are abstracted into a single serialized phase, without queue buildup, to isolate synchronization effects.
@@ -75,79 +76,85 @@ This reflects VQE-like workflows in which **circuit preparation is parallel**, b
 
 ## Frame-by-Frame Walkthrough
 
-### Frame 1 — Uneven classical progress
+### Frame 1 — Uneven classical workload (200 working / 800 idle)
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B1.png" style="width: 700px;">
 </p>
 
-A subset of ranks is actively preparing quantum circuits.  
-Other ranks are idle because the preparation workload is small relative to available classical resources.
+Only a subset of ranks (**Working ≈ 200**) is active, preparing quantum circuits.  
+The remaining ranks are **Idle ≈ 800** because the preparation workload is small relative to the allocated HPC resources.
+
+This idle state is intentional: these ranks are reserved for the upcoming globally synchronized optimization phase.
 
 No quantum execution is active yet.
 
 ---
 
-### Frame 2 — Quantum submission begins
+### Frame 2 — Submission begins, first ranks block (199 working / 1 blocked)
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B2.png" style="width: 700px;">
 </p>
 
-Prepared quantum work is submitted.  
-Submitting ranks become **Blocked** while awaiting results.
+The first quantum submission occurs.  
+The submitting rank reaches a dependency on its quantum result and becomes **Blocked**.
 
-Ranks that finished preparation earlier remain idle.
+Other preparation ranks continue working, while non-participating ranks remain idle.
+
+This marks the **start of dependency accumulation**, but not yet a global barrier.
 
 ---
 
-### Frame 3 — Quantum phase active, dependency exposed
+### Frame 3 — Quantum phase active, partial barrier (200 blocked)
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B3.png" style="width: 700px;">
 </p>
 
-The quantum phase is active.  
-All classical preparation is complete.
+All circuit preparation is complete.  
+The ranks that participated in preparation (**Blocked ≈ 200**) are now waiting for quantum results.
 
-At this point, classical progress is no longer possible: the next valid step requires the **entire quantum result set**.
-
+At this point, classical progress is no longer possible: the next valid step requires the entire quantum result set.
 ---
 
-### Frame 4 — Full synchronization wall
+### Frame 4 — Global synchronization wall forms (1000 blocked)
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B4.png" style="width: 700px;">
 </p>
 
-All HPC ranks are blocked at a global barrier.
+The workflow reaches the global aggregation point.  
+All ranks — including those that never submitted quantum jobs — now depend on the **complete quantum result set**.
 
-This includes ranks that never submitted quantum jobs themselves.  
-Blocking propagates through algorithmic dependency, not through job submission.
+As a result, **all 1000 ranks are blocked** at a global barrier.
+
+Blocking propagates through **algorithmic dependency**, not through job submission.
 
 ---
 
-### Frame 5 — The last result returns
+### Frame 5 — Last quantum result returns
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B5.png" style="width: 700px;">
 </p>
 
-The final quantum result required for this iteration is transferred back. 
-The global dependency is resolved.
+The final quantum result required for this iteration is transferred back.
+
+This single event resolves the global dependency and releases the barrier.
 
 ---
 
-### Frame 6 — Collective recovery
+### Frame 6 — Collective recovery and optimization (1000 working)
 
 <p align="center">
   <img src="./images/workflow-explorer/scenario-b/B6.png" style="width: 700px;">
 </p>
 
-All ranks resume classical execution simultaneously.  
-The workflow enters the collective optimization phase.
+All ranks resume execution simultaneously.  
+The workflow enters the collective optimization and aggregation phase, utilizing the full HPC allocation.
 
-The same synchronization pattern will recur in the next iteration.
+The same synchronization pattern will repeat in the next iteration.
 
 ---
 
