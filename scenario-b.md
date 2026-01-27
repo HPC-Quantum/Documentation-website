@@ -116,6 +116,7 @@ All circuit preparation is complete.
 The ranks that participated in preparation (**Blocked ≈ 200**) are now waiting for quantum results.
 
 At this point, classical progress is no longer possible: the next valid step requires the entire quantum result set.
+
 ---
 
 ### Frame 4 — Global synchronization wall forms (1000 blocked)
