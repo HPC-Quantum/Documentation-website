@@ -68,8 +68,8 @@ The following state definitions apply across **all scenarios**.
 
 ### Transfer
 - **Transfer (arrows)**  
-  Data is in flight between HPC and QPU.  
-  Transfer time does *not* count as HPC working time.
+  Transfer denotes the full data movement phase from the start of off-load on the HPC side until the payload has fully arrived at the QC side. During Transfer, a rank may be Working (while performing off-load) or Blocked (once off-load has completed and no further action is possible).
+
 
 ### QPU States
 - **Queue**  
