@@ -20,6 +20,14 @@ project:
           children:
             - file: openmp.md
             - file: mpi.md
+        - file: qiskitonhpc.md
+          children:
+            - file: Python.md
+            - file: Cplusplus.md
+            - file: tutorial.md 
+              children:
+                - file: medium.md
+                - file: Installation.md 
         - file: hybridorch.md
           children:
             - file: workflowscenarios.md
@@ -32,15 +40,6 @@ project:
               children:
                 - file: workflowanimations.md
                 - file: explorertool.md
-        - file: qiskitonhpc.md
-          children:
-            - file: Python.md
-            - file: Cplusplus.md
-            - file: tutorial.md 
-              children:
-                - file: medium.md
-                - file: Installation.md 
-
 
 
 site:
