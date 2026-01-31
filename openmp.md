@@ -41,7 +41,7 @@ You can experiment by changing the number of threads and observing how the outpu
 
 The complete OpenMP mini-lab, including explanations, variations, and additional exercises, is maintained in the following repository:
 
-👉 **https\://github.com/friedsam/hpc-qc-mini-labs**
+👉 **https://github.com/friedsam/hpc-qc-mini-labs**
 
 This page is intentionally lightweight; the GitHub repository is the source of truth for the full lab material.
 

@@ -40,7 +40,7 @@ On HPC systems, MPI programs are often launched through the job scheduler.
 
 The complete MPI mini-lab, including explanations, exercises, and scaling experiments, is maintained in the following repository:
 
-👉 **https\://github.com/friedsam/hpc-qc-mini-labs**
+👉 **https://github.com/friedsam/hpc-qc-mini-labs**
 
 This documentation page serves as an entry point; the lab repository contains the full material.
 
