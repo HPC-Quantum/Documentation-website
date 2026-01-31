@@ -66,7 +66,7 @@ Scenario A relies on a narrow but explicit set of assumptions.
 ### HPC execution model
 - Many ranks execute classical work concurrently
 - A rank submitting a quantum job does not stall others
-- Submission temporarily removes that rank from classical work but does not block progress elsewhere
+- Submission temporarily blocks the submitting rank (it cannot continue classical work until its quantum result returns), but it does not block progress elsewhere.
 
 ### Quantum execution model
 - Single-lane (serial) QPU execution
@@ -99,7 +99,7 @@ This represents a long classical phase (e.g., preprocessing or local computation
 </p>
 
 One rank finishes a classical step and submits a quantum job.  
-That rank temporarily becomes **Idle** while the job is transferred.
+That rank becomes **Blocked** (waiting on its own quantum call) while the job is transferred and executed.
 
 Crucially, no other rank is affected.
 
@@ -137,7 +137,7 @@ This overlap is the defining feature of Scenario A: quantum execution does not r
 </p>
 
 The quantum result is transferred back.  
-The submitting rank resumes classical work immediately. The QPU becomes idle.
+The result returns and unblocks the submitting rank, which resumes classical work immediately. The QPU becomes idle.
 
 ---
 
