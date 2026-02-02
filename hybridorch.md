@@ -13,4 +13,4 @@ For the theoretical background and a discussion of recurring bottlenecks in hybr
 [Hybrid Quantum–HPC Systems: Bottlenecks, Tradeoffs, and Practical Solutions](https://medium.com/@claudia.friedsam/hybrid-quantum-hpc-systems-bottlenecks-tradeoffs-and-practical-solutions-1faa3e21db23)
 
 An early, evolving version of the interactive Workflow Explorer is available here:  
-*Quantum–HPC Workflow Explorer* (external link, work in progress).
+[Quantum–HPC Workflow Explorer](https://quantum-hpc-workflow-explorer.vercel.app/) (external link, work in progress).
