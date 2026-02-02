@@ -13,7 +13,7 @@ You can access the Workflow Explorer here:
 
 **👉 https://quantum-hpc-workflow-explorer.vercel.app/**
 
-<img src="./images/workflow-explorer/web/Startpage.png" alt="Workflow Explorer start page" style="max-width:100%; height:auto; margin: 1.5rem 0;" />
+<img src="./images/workflow-explorer/webpage/Startpage.png" alt="Workflow Explorer start page" style="max-width:100%; height:auto; margin: 1.5rem 0;" />
 
 The explorer starts from a simple overview page that connects the conceptual material from the documentation to an interactive environment.
 
