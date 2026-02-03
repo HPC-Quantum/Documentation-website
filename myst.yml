@@ -39,7 +39,8 @@ project:
             - file: workflowexplorer.md
               children:
                 - file: workflowanimations.md
-                - file: explorertool.md
+                - file: explorerbuilder.md
+                - file: explorerrunner.md
 
 
 site:
