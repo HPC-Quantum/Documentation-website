@@ -1,4 +1,4 @@
-# Workflow Builder (Blueprint)
+# Workflow Builder 
 
 The **Workflow Builder** is a tool that allows the user to describe a *custom hybrid quantum–HPC workflow* and specify the input parameters required to run the corresponding workflow within the Explorer. It provides a blueprint that the Explorer uses to model execution flow, timing, and resource interaction.
 
