@@ -5,6 +5,7 @@ The **Workflow Builder** is a tool that allows the user to describe a *custom hy
 This allows the user to explore their own application scenarios. Future versions will also provide the option to store the custom scenarios for later reuse.
 
 This tool is under active development and will evolve as additional features are implemented.
+
 ---
 
 
@@ -17,9 +18,9 @@ The Builder offers multiple **workflow templates** as starting points which are 
   - estimated quantum job duration
   - cost assumptions for HPC and QPU usage
 
- 
 
 These parameters define the structure and scale of the workflow and serve as the input for execution modeling in the Explorer. They can be dynamically adjusted during the run to observe how changes affect execution flow and resource utilization.
+
 ---
 
 ## Builder interface overview
