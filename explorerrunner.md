@@ -22,7 +22,7 @@ After you define a workflow in the **Builder**, the Runner lets you:
 ## Runner interface overview
 
 <div style="text-align:center; margin: 1.5em 0;">
-  <img src="./images/workflow-explorer/webpage/image1.png"
+  <img src="./images/workflow-explorer/webpage/Runner.png"
        alt="Workflow Runner page (prototype)"
        style="max-width:90%; border-radius:6px;" />
 </div>

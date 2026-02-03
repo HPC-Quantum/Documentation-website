@@ -29,7 +29,7 @@ These animations serve two purposes:
 
 The overview page lists all available workflow scenarios discussed earlier (Scenario A–D), each representing a distinct orchestration pattern.
 
-<img src="./images/workflow-explorer/webpage/image1.png" alt="Workflow scenarios overview" width="100%"/>
+<img src="./images/workflow-explorer/webpage/Simulations.png" alt="Workflow scenarios overview" width="100%"/>
 
 Each scenario corresponds directly to a workflow analyzed in detail in the preceding documentation sections. The animations simply make those workflows *observable over time*.
 
@@ -39,7 +39,7 @@ Each scenario corresponds directly to a workflow analyzed in detail in the prece
 
 Each scenario opens into an interactive animation that shows the workflow progressing step by step.
 
-<img src="./images/workflow-explorer/webpage/image2.png" alt="Example workflow animation" width="100%"/>
+<img src="./images/workflow-explorer/webpage/ScenarioB.png" alt="Example workflow animation" width="100%"/>
 
 In these animations you can observe, for example:
 - ranks transitioning between **working**, **idle**, and **blocked** states  

@@ -26,7 +26,7 @@ These parameters define the structure and scale of the workflow and serve as the
 ## Builder interface overview
 
 <div style="text-align:center; margin: 1.5em 0;">
-  <img src="./images/workflow-explorer/webpage/image1.png"
+  <img src="./images/workflow-explorer/webpage/Builder.png"
        alt="Workflow Builder interface"
        style="max-width:90%; border-radius:6px;" />
 </div>
