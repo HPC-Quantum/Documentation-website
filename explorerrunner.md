@@ -1,4 +1,4 @@
-# Workflow Runner (Explorer)
+# Workflow Explorer
 
 The **Workflow Runner** is the part of the Workflow Explorer where a workflow *blueprint* is executed as a **visual model**.
 
