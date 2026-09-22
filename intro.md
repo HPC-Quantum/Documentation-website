@@ -2,11 +2,10 @@
 
 Learning quantum computing is no easy feat especially when you combine it with another complicated topic such as high-performance computing. For this reason we have created five suggested pathways that you can utilize to go through the materials here depending on your background. 
 
-% A figure of Feynman teaching
-:::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d7/Feynman_lecture_1964_%2810481714045%29.jpg
+:::{figure} images/feynman-quantum-lecture-1963.jpg
 :label: fig:Feynman lecture
 
-A photograph of Richard Feynman teaching
+Richard Feynman responding to students after a quantum mechanics lecture at Caltech, 1963. Courtesy of the Archives, California Institute of Technology.
 :::
 
 ## Pathways 
