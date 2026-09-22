@@ -1,6 +1,6 @@
 # Introduction
 
-Learning quantum computing is no easy feat specially when you combine it with another complicated topic such as high-performance computing. For this reason we have created four suggested pathways that you can utilize to go thorugh the materials here depending on your background. 
+Learning quantum computing is no easy feat specially when you combine it with another complicated topic such as high-performance computing. For this reason we have created five suggested pathways that you can utilize to go through the materials here depending on your background. 
 
 % A figure of Feynman teaching
 :::{figure} https://upload.wikimedia.org/wikipedia/commons/d/d7/Feynman_lecture_1964_%2810481714045%29.jpg
@@ -15,28 +15,35 @@ Given the differing backgrounds of the users of this page we wanted to make sure
 
 :::::{dropdown} __Quantum Pathway__
 __Background:__ This Pathway is for those who __have__ HPC experience and would like to leanre the basics of Qiskit and Quantum computing so they can start exploting quantum workflows. Familiarity with Python and/or C++ is preferred as well as some comfortability with Unix-like systems and bash scripts.
+
 ::::{grid} 1 1 2 3
 
-:::{card} 
+:::{card}
 :header: __I.Intro to Quantum Computing__
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
 This docs page will guide you to the appropriate Qiskit tutorials to start your Quantum journey!
 :::
 
-:::{card} 
+:::{card}
 :header: __II.Intro to Quantum-HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/hybrid/
 This docs page will guide you through the theory of how a hybrid workflow should work!
 :::
 
-:::{card} 
-:header: __III.Qiskit on HPC__
+:::{card}
+:header: __III.Hybrid Orchestration__
+:link: https://hpc-quantum.github.io/Documentation-website/hybridorch/
+Explore system-level concepts including scheduling, synchronization, batching, resource coordination, and bottlenecks in hybrid Quantum-HPC workflows.
+:::
+
+:::{card}
+:header: __IV.Qiskit on HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
-This docs page will cover current work being done to use Qiskit on HPC and current learning materials
+This docs page will cover current work being done to use Qiskit on HPC and current learning materials.
 :::
 ::::
 
-After completing the three lessons above feel free to visit the [Python](/Python.md), [C++](/Cplusplus.md), and [API demo pages](/tutorial.md) at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
+After completing the four lessons above feel free to visit the [Python](/Python.md), [C++](/Cplusplus.md), and [API demo pages](/tutorial.md) at your own pace. We do reccomend you grasp the content of the C++ basics page before proceeding to the demo content.
 
 :::::
 
@@ -45,20 +52,26 @@ __Background:__ This Pathway is for those who __have__ quantum computing experie
 
 ::::{grid} 1 1 2 3
 
-:::{card} 
+:::{card}
 :header: __I.Intro to High Performance Computing__
 :link: https://hpc-quantum.github.io/Documentation-website/hpcintro/
 This docs page will guide you to the appropriate HPC tutorials to start your HPC journey!
 :::
 
-:::{card} 
+:::{card}
 :header: __II.Understanding HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/hpctutorial/
-This colllection of pages will guide you through the use of OpenMP and MPI separate from quantum workflows for ease of learning
+This colllection of pages will guide you through the use of OpenMP and MPI separate from quantum workflows for ease of learning.
 :::
 
-:::{card} 
-:header: __III.Qiskit on HPC__
+:::{card}
+:header: __III.Hybrid Orchestration__
+:link: https://hpc-quantum.github.io/Documentation-website/hybridorch/
+Explore how classical HPC resources and quantum resources interact through scheduling, synchronization, batching, queueing, and resource coordination.
+:::
+
+:::{card}
+:header: __IV.Qiskit on HPC__
 :link: https://hpc-quantum.github.io/Documentation-website/qiskitonhpc/
 This docs page will cover current work being done to use Qiskit on HPC and current learning materials.
 :::
@@ -112,6 +125,43 @@ This tutorial guides you through the use of the Qiskit C++ API without the addit
 :header: __Official Qiskit API demo help__
 :link: https://hpc-quantum.github.io/Documentation-website/tutorial/
 This selection of pages has intallation and instruction help to get the official IBM Qiskit C API demo up and running!
+:::
+::::
+:::::
+
+:::::{dropdown} __Systems / Workflow Pathway__
+__Background:__ This Pathway is for readers who want to focus on the system-level behavior of hybrid Quantum-HPC workflows: how classical and quantum resources interact, where bottlenecks arise, and how orchestration choices affect execution.
+
+::::{grid} 1 1 2 3
+
+:::{card}
+:header: __I.Understanding HPC__
+:link: https://hpc-quantum.github.io/Documentation-website/hpctutorial/
+Review the parallel execution concepts behind OpenMP and MPI before moving into hybrid workflow behavior.
+:::
+
+:::{card}
+:header: __II.Intro to Quantum-HPC__
+:link: https://hpc-quantum.github.io/Documentation-website/hybrid/
+Introduce the architecture and basic concepts behind hybrid Quantum-HPC workflows.
+:::
+
+:::{card}
+:header: __III.Hybrid Orchestration__
+:link: https://hpc-quantum.github.io/Documentation-website/hybridorch/
+Study scheduling, batching, synchronization, resource coordination, and where hybrid workflows can stall.
+:::
+
+:::{card}
+:header: __IV.Workflow Scenarios__
+:link: https://hpc-quantum.github.io/Documentation-website/workflowscenarios/
+Follow step-by-step workflow scenarios that illustrate synchronization, latency, serialization, queueing, and throttled execution.
+:::
+
+:::{card}
+:header: __V.Workflow Explorer__
+:link: https://hpc-quantum.github.io/Documentation-website/workflowexplorer/
+Use the interactive Workflow Explorer to apply these orchestration concepts and explore hybrid workflow behavior.
 :::
 ::::
 :::::
